@@ -1,0 +1,28 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.balao {
+  position: relative;
+  border: none;
+  background: red;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.fio {
+  position: absolute;
+  width: 2px;
+  height: 100px;
+  background-color: black;
+  top: 100px;
+  left: 50%;
+}
